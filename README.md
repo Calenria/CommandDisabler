@@ -1,47 +1,28 @@
-BungeeTools
+CommandDisabler
 ==========
-
-Tools für BungeeCord
 
 Downloads:
 
-[Letzter Erfolgreicher Build](http://ci.skymine.de/job/BungeeTools/lastSuccessfulBuild/)
-
-[Letzter Release Build](http://ci.skymine.de/job/BungeeTools/Release/)
+[Letzter Erfolgreicher Build](http://ci.skymine.de/job/CommandDisabler/lastSuccessfulBuild/)
 
 
 Config
 ==========
+
 ```
-server: Karion
-servers:
-  - 'null'
-  - 'null'
-  - '399@#@&a&lKarion@#@&6Freebuild/PvP Server.'
-  - 'null'
-  - '398@#@&a&lInsomnia@#@&6Spiele/Event und Parkour Server.'
-  - 'null'
-  - '54@#@&a&lAlassra@#@&6SkyBlock und Kreativ Server.'
-  - 'null'
-  - 'null'
+disable:
+  - homeregion
+  - spawn
+  - acceptregioninvite
+  - visitregion
+  - newestregion
+  - randomregion
+  - cityregion
 ```
 
 Permissions
 ==========
 ```
-- bungeetools.mute
-- bungeetools.jail
-- bungeetools.send
-- bungeetools.kick
-- bungeetools.ban
-```
-Benutzung
-==========
-```
-/servers - Öffnet ein Menü zum Wechseln des Servers
-/gban <player> (-s/-a) {reason} - Bann von allen Servern (Ultrabans)
-/gkick <player / *> (-s/-a) {reason} - Kick von allen Servern (Ultrabans)
-/send <player> [Server] - Spieler auf anderen Server verschieben
-/gjail <player> (time) m j:(Jail name) c:(Cell name) r:\"(Reason)\" - Spieler ins Gefängniss (Jail)
-/gmute <player> [datediff] - Spieler auf allen Servern Muten (Essentials)
+- commanddisabler.jail -> Erzwingt den Gamemode 0 und /ungod vorm Jail
+- commanddisabler.command.[command]
 ```
