@@ -1,0 +1,8 @@
+name: CommandDisabler
+main: com.github.calenria.commanddisabler.CommandDisabler
+version: 0.1
+website: https://github.com/Calenria/CommandDisabler
+author: Calenria
+description: CommandDisabler!
+database: false
+depend: [Vault, WorldEdit]

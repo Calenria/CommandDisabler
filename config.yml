@@ -1,0 +1,8 @@
+disable:
+  - homeregion
+  - spawn
+  - acceptregioninvite
+  - visitregion
+  - newestregion
+  - randomregion
+  - cityregion
